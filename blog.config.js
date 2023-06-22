@@ -42,7 +42,7 @@ const BLOG = {
   FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
 
   // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['fm.goodq.top/cache/ZmFzdG15bmEtMjkyNS02NDk0MTk2ZmNmMzg4.js'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
