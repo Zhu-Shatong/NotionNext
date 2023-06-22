@@ -106,16 +106,6 @@ const Header = props => {
                 <i className='animate-bounce fas fa-angle-down' />
             </div>
 
-
-            
-            <link rel="alternate" hreflang="zh" href="https://www.zhushatong.top">
-            <link rel="alternate" hreflang="en" href="https://en.zhushatong.top">
-            <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-            <script>
-                Weglot.initialize({
-                    api_key: 'wg_b60cfde7ccc331d1964664c7e599bfd18'
-                });
-            </script>
         </header>
   )
 }
