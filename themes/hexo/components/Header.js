@@ -85,10 +85,6 @@ const Header = props => {
   return (
         <header id="header" style={{ zIndex: 1 }} className="w-full h-screen relative" >
 
-
-            <script src="https://www.gmodules.com/ig/ifr?url=https://www.google.com/ig/modules/translatemypage.xml&up_source_language=zh-CN&w=160&h=60&title=&border=&output=js">
-            </script>
-
             <div id='header-cover' style={{ backgroundImage: `url('${siteInfo.pageCover}')` }}
                 className={`header-cover bg-center w-full h-screen bg-cover ${CONFIG_HEXO.HOME_NAV_BACKGROUND_IMG_FIXED ? 'bg-fixed' : ''}`}/>
 
