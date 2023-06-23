@@ -85,12 +85,17 @@ const Header = props => {
   return (
         <header id="header" style={{ zIndex: 1 }} className="w-full h-screen relative" >
 
-            <div id="google_translate_element"></div><script type="text/javascript">
+            <div id="google_translate_element">
+            </div>
+  
+            <script type="text/javascript">
               function googleTranslateElementInit() {
                 new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
               }
             </script>
-            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+            </script>
         
 
             <div id='header-cover' style={{ backgroundImage: `url('${siteInfo.pageCover}')` }}
